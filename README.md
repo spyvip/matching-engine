@@ -35,3 +35,6 @@
     ├── init.go              # 初始化
     └── new_engine.go        # 启动新引擎
 ````
+
+## TODO
+- go-redis问题，运行时发现只能运行在常量下，待排查
