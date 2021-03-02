@@ -1,5 +1,6 @@
 # 交配引擎
 ## 目录结构
+````
 ├── conf                     # 配置文件存放目录
 │   ├── config.yaml          # 配置文件
 ├── engine                   # 引擎包
@@ -33,3 +34,4 @@
     ├── dispatch.go          # 分发订单
     ├── init.go              # 初始化
     └── new_engine.go        # 启动新引擎
+````
