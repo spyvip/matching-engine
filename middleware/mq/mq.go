@@ -2,7 +2,7 @@ package mq
 
 import (
 	"github.com/go-redis/redis"
-	"github.com/guoxiaopeng875/matching-engine/middleware/cache"
+	"matching-engine/middleware/cache"
 )
 
 func SendCancelResult(symbol, orderId string, ok bool) {

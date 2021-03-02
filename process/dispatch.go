@@ -1,10 +1,10 @@
 package process
 
 import (
-	"github.com/guoxiaopeng875/matching-engine/engine"
-	"github.com/guoxiaopeng875/matching-engine/enum"
-	"github.com/guoxiaopeng875/matching-engine/errcode"
-	"github.com/guoxiaopeng875/matching-engine/middleware/cache"
+	"matching-engine/engine"
+	"matching-engine/enum"
+	"matching-engine/errcode"
+	"matching-engine/middleware/cache"
 	"time"
 )
 

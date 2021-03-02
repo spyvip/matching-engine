@@ -1,8 +1,8 @@
 package process
 
 import (
-	"github.com/guoxiaopeng875/matching-engine/engine"
-	"github.com/guoxiaopeng875/matching-engine/errcode"
+	"matching-engine/engine"
+	"matching-engine/errcode"
 )
 
 func CloseEngine(symbol string) *errcode.Errcode {

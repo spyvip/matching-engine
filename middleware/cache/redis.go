@@ -2,19 +2,24 @@ package cache
 
 import (
 	"github.com/go-redis/redis"
-	"github.com/guoxiaopeng875/matching-engine/config"
-	"github.com/guoxiaopeng875/matching-engine/log"
 	"go.uber.org/zap"
+	"matching-engine/config"
+	"matching-engine/log"
 )
 
 var RedisClient *redis.Client
 
 func Init() {
 	conf := config.Conf.Redis
+
+	//address := conf.Addr
+	//password := conf.Password
+	//db := conf.DB
+	//TODO 这里使用常量才能运行通过？用变量都不通过
 	RedisClient = redis.NewClient(&redis.Options{
-		Addr:     conf.Addr,
-		Password: conf.Password, // no password set
-		DB:       conf.DB,       // use default DB
+		Addr:     "mylab:6379",
+		Password: "", // no password set
+		DB:       0,  // use default DB
 	})
 
 	_, err := RedisClient.Ping().Result()

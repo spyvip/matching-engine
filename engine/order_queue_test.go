@@ -1,7 +1,7 @@
 package engine
 
 import (
-	"github.com/guoxiaopeng875/matching-engine/enum"
+	"matching-engine/enum"
 	"testing"
 )
 

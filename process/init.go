@@ -1,8 +1,8 @@
 package process
 
 import (
-	"github.com/guoxiaopeng875/matching-engine/engine"
-	"github.com/guoxiaopeng875/matching-engine/middleware/cache"
+	"matching-engine/engine"
+	"matching-engine/middleware/cache"
 )
 
 func Init() {

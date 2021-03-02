@@ -1,12 +1,12 @@
 package engine
 
 import (
-	"github.com/guoxiaopeng875/matching-engine/enum"
-	"github.com/guoxiaopeng875/matching-engine/log"
-	"github.com/guoxiaopeng875/matching-engine/middleware/cache"
-	"github.com/guoxiaopeng875/matching-engine/middleware/mq"
 	"github.com/shopspring/decimal"
 	"go.uber.org/zap"
+	"matching-engine/enum"
+	"matching-engine/log"
+	"matching-engine/middleware/cache"
+	"matching-engine/middleware/mq"
 	"time"
 )
 

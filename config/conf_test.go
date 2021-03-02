@@ -11,7 +11,7 @@ func TestInit(t *testing.T) {
 	Init(TestPath)
 	assert.NotNil(t, Conf)
 	assert.NotNil(t, Conf.Redis)
-	assert.Equal(t, "localhost:6379", Conf.Redis.Addr)
+	assert.Equal(t, "mylab:6379", Conf.Redis.Addr)
 	Conf.ErrCodes = map[int]string{
 		1: "成功",
 	}

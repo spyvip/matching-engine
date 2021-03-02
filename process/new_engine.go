@@ -1,10 +1,10 @@
 package process
 
 import (
-	"github.com/guoxiaopeng875/matching-engine/engine"
-	"github.com/guoxiaopeng875/matching-engine/errcode"
-	"github.com/guoxiaopeng875/matching-engine/middleware/cache"
 	"github.com/shopspring/decimal"
+	"matching-engine/engine"
+	"matching-engine/errcode"
+	"matching-engine/middleware/cache"
 )
 
 func NewEngine(symbol string, price decimal.Decimal) *errcode.Errcode {

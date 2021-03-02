@@ -2,8 +2,8 @@ package engine
 
 import (
 	"github.com/dipperin/go-ms-toolkit/json"
-	"github.com/guoxiaopeng875/matching-engine/enum"
 	"github.com/shopspring/decimal"
+	"matching-engine/enum"
 )
 
 // Trade 成交记录

@@ -1,6 +1,6 @@
 package engine
 
-import "github.com/guoxiaopeng875/matching-engine/enum"
+import "matching-engine/enum"
 
 type orderBook struct {
 	// 买单队列
@@ -49,11 +49,11 @@ func (ob *orderBook) popHeadSellOrder() *Order {
 }
 
 // removeBuyOrder 移除买单委托单
-func (ob *orderBook) removeBuyOrder(order *Order) bool{
+func (ob *orderBook) removeBuyOrder(order *Order) bool {
 	return ob.buyOrderQueue.removeOrder(order)
 }
 
 // removeSellOrder 移除卖单委托单
-func (ob *orderBook) removeSellOrder(order *Order) bool{
+func (ob *orderBook) removeSellOrder(order *Order) bool {
 	return ob.sellOrderQueue.removeOrder(order)
 }

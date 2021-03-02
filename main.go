@@ -2,13 +2,13 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/guoxiaopeng875/matching-engine/config"
-	"github.com/guoxiaopeng875/matching-engine/engine"
-	"github.com/guoxiaopeng875/matching-engine/errcode"
-	"github.com/guoxiaopeng875/matching-engine/handler"
-	"github.com/guoxiaopeng875/matching-engine/log"
-	"github.com/guoxiaopeng875/matching-engine/middleware"
-	"github.com/guoxiaopeng875/matching-engine/process"
+	"matching-engine/config"
+	"matching-engine/engine"
+	"matching-engine/errcode"
+	"matching-engine/handler"
+	"matching-engine/log"
+	"matching-engine/middleware"
+	"matching-engine/process"
 )
 
 func init() {

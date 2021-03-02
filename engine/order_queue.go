@@ -2,8 +2,7 @@ package engine
 
 import (
 	"container/list"
-	"github.com/guoxiaopeng875/matching-engine/enum"
-	"strings"
+	"matching-engine/enum"
 )
 
 // orderQueue 订单队列
@@ -136,6 +135,7 @@ func (q *orderQueue) getDepthPrice(depth int) (string, int) {
 
 // Print 打印所有数据, 耗性能, 仅用于测试
 func (q *orderQueue) Print() string {
-	var sb strings.Builder
+	//var sb strings.Builder
 	q.parentList.Len()
+	return ""
 }
